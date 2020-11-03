@@ -1,0 +1,17 @@
+{
+    "inventory": {
+        "url_token": "http://portapi.fpt.vn/token",
+        "url_data": "http://portapi.fpt.vn/api/GET/Devices",
+        "payload": "grant_type=password&username=manhvc&password=@Pwe30%23fpttelecom",
+        "header_token": {
+            "Accept": "application/json",
+            "Content-type":"application/x-www-form-urlencoded"
+        }
+    },
+    "portnet":{
+        "url_data":"http://listindexreasonsf.fpt.net/listIndex.svc/getListDeviceAccess?token=fpt-telecom",
+        "header":{
+            "Content-Type": "application/json"
+        }
+    }
+}
